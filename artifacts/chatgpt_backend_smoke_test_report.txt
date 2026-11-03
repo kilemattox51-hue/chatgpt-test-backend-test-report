@@ -1,0 +1,17 @@
+ChatGPT file workspace smoke test: PASS
+
+Checks completed:
+- Create TXT, JSON, CSV, and Markdown files: PASS
+- Read back TXT and Markdown content: PASS
+- Parse JSON: PASS
+- Read CSV and validate 3 records: PASS
+- Create ZIP archive: PASS
+- Test ZIP archive integrity: PASS
+- Create TAR.GZ archive: PASS
+- Extract both archives and compare contents: PASS
+- Generate SHA-256 checksums: PASS
+
+Scope limitation:
+These results verify the file and command-execution tools available to this conversation.
+They do not test OpenAI private backend services, internal logs, model-serving infrastructure,
+networking, storage systems outside this workspace, or platform-wide availability.
